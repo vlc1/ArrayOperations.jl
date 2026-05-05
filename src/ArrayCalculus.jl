@@ -3,7 +3,8 @@ module ArrayCalculus
 using Base: @propagate_inbounds,
             tail
 
-import Base: eltype,
+import Base: Tuple,
+             eltype,
              length,
              iterate,
              first,
